@@ -1,0 +1,40 @@
+<schemalist>
+
+	<schema path="/org/gnome/gedit/plugins/chron/" id="org.gnome.gedit.plugins.chron">
+
+		<key name="newline-after" type="b">
+			<default>true</default>
+			<summary>Insert a newline after date/time.</summary>
+			<description>
+				If enabled, a newline will be inserted after date/time is inserted into the document.
+			</description>
+		</key>
+
+		<key name="lower-case" type="b">
+			<default>true</default>
+			<summary>Make all letters lower case.</summary>
+			<description>
+				If enabled, all letters in date or time will be lower case.
+			</description>
+		</key>
+
+		<key name="date-format" type="s">
+			<default>"%d %b %Y"</default>
+			<summary>Date format</summary>
+			<description>
+				Date will be inserted in the format specified.
+			</description>
+		</key>
+
+		<key name="time-format" type="s">
+			<default>"%H:%M"</default>
+			<summary>Time format</summary>
+			<description>
+				Time will be inserted in the format specified.
+			</description>
+		</key>
+
+	</schema>
+
+</schemalist>
+

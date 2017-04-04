@@ -1,0 +1,8 @@
+[Plugin]
+Loader=python3
+Module=chron
+IAge=3
+Name=Chron
+Description=Insert date/time in the current document.
+Authors=Amol Umrale
+Website=https://github.com/amol9/gedit-plugins/chron
